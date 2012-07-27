@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VeeTileEngine.Entity">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Members>
+      <Method Name="Entity" Hidden="true" />
+      <Property Name="Name" Hidden="true" />
+      <Method Name="SetPosition" Hidden="true" />
+      <Property Name="X" Hidden="true" />
+      <Property Name="Y" Hidden="true" />
+      <Property Name="Z" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAUABAAIQBAAAAAAAgAAAAQAAAhBBgQwAAAAAAAAYAE=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VeeTileEngine.EntityManager">
+    <Position X="2.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABABCCAAAgAAAAAgAAIAAAAEAABBAAAA=</HashCode>
+      <FileName>EntityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VeeTileEngine.Game">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Game" Hidden="true" />
+      <Method Name="SendInput" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAABQAAAgACgAAAAAAABIAAAAAAABAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VeeTileEngine.Gamemode">
+    <Position X="2.25" Y="4" Width="1.75" />
+    <Members>
+      <Method Name="Gamemode" Hidden="true" />
+      <Method Name="SendInput" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAABAAQAAAAAAAAQAAAgAAAAAAAAAhgAAAAI=</HashCode>
+      <FileName>Gamemode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VeeTileEngine.Helper">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Helper" Hidden="true" />
+      <Method Name="Log" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="VeeTileEngine.Helper.Direction">
+        <TypeIdentifier>
+          <NewMemberFileName>Helper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAUAAAAAAAAAAAAAAAAAEgAAoABABIAAAAAAAIAAA=</HashCode>
+      <FileName>Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VeeTileEngine.SFML">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <Members>
+      <Property Name="CurrentGame" Hidden="true" />
+      <Property Name="CurrentGamemode" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="InitializeVariables" Hidden="true" />
+      <Property Name="InputDelay" Hidden="true" />
+      <Method Name="Run" Hidden="true" />
+      <Method Name="RunDraw" Hidden="true" />
+      <Method Name="RunInput" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQAAoAAEAAAAAQAAEAAAAACgBAAAAAAIAAAAAAAAAAI=</HashCode>
+      <FileName>SFML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
